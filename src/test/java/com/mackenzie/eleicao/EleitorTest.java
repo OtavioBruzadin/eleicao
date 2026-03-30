@@ -51,8 +51,8 @@ public class EleitorTest {
         System.out.println("Teste da classe Obrigatorio");
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(18));
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(19));
-        assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(68));
         assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(69));
+        assertEquals("Obrigatorio", objEleitor.mtClasssificarEleitor(68));
     }
     
 }
